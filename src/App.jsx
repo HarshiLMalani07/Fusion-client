@@ -27,6 +27,7 @@ import VHGuidelinesPage from "./Modules/Visitors_Hostel/vhGuidelines";
 import InventoryManagement from "./Modules/Visitors_Hostel/inventory";
 import RoomsAvailibility from "./Modules/Visitors_Hostel/roomsAvailability";
 import AccountStatemnts from "./Modules/Visitors_Hostel/accountStatements";
+import OtherAcadProcedures from "./Modules/Otheracademic/OtherAcademicProcedures";
 import FacultyProfessionalProfile from "./Modules/facultyProfessionalProfile/facultyProfessionalProfile";
 
 // eslint-disable-next-line import/no-unresolved
@@ -105,6 +106,14 @@ export default function App() {
           element={
             <Layout>
               <FileTracking />
+            </Layout>
+          }
+        />
+        <Route
+          path="/otherAcadProcedures"
+          element={
+            <Layout>
+              <OtherAcadProcedures />
             </Layout>
           }
         />

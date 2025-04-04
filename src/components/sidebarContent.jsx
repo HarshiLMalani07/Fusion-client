@@ -50,6 +50,7 @@ function SidebarContent({ isCollapsed, toggleSidebar }) {
     "visitor_hostel",
     "department",
     "iwd",
+    "other_academics",
   ];
 
   const Modules = [
@@ -166,7 +167,7 @@ function SidebarContent({ isCollapsed, toggleSidebar }) {
       label: "Other Academic Procedure",
       id: "other_academics",
       icon: <OtherAcademicIcon size={18} />,
-      url: "/",
+      url: "/otherAcadprocedures",
     },
   ];
 
